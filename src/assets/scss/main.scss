@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-calc {
+  @apply w-16 h-16 bg-gray-200 dark:bg-slate-500 text-xl font-bold rounded-full shadow hover:bg-slate-700 hover:text-gray-200 dark:hover:bg-gray-200 dark:hover:text-slate-700;
+}
+
+.filtered-op {
+  filter: invert(69%) sepia(50%) saturate(533%) hue-rotate(105deg)
+    brightness(90%) contrast(95%);
+
+  @apply w-6 h-6;
+}
+
+.filtered-op-orange {
+    filter: invert(74%) sepia(83%) saturate(2352%) hue-rotate(331deg) brightness(99%) contrast(98%);
+
+  @apply w-6 h-6;
+}
