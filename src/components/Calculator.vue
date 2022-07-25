@@ -151,6 +151,10 @@ const mountLocalStorage = () => {
   calcStore.setFromMount()
 }
 
+const checkCommit = () => {
+  console.log('check commit')
+}
+
 onMounted(() => {
   mountLocalStorage()
 })
