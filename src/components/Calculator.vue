@@ -157,5 +157,6 @@ const checkCommit = () => {
 
 onMounted(() => {
   mountLocalStorage()
+  console.log('test commit')
 })
 </script>
